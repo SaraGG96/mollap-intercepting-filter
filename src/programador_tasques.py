@@ -8,3 +8,7 @@ class ProgramadorTasques:
     
     def getTasques(self):
         return self.tasques
+    
+    def setTasca(self, filter):
+        self.tasques.afegirTasca(filter)
+    
