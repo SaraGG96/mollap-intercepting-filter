@@ -12,3 +12,5 @@ class ProgramadorTasques:
     def setTasca(self, filter):
         self.tasques.afegirTasca(filter)
     
+    def executarTasques(self, username):
+        self.tasques.execucio(username)
