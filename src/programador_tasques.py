@@ -6,3 +6,5 @@ class ProgramadorTasques:
         self.tasques = Tasques()
         self.tasques.setTarget(target)
     
+    def getTasques(self):
+        return self.tasques
