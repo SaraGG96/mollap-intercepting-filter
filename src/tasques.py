@@ -7,3 +7,6 @@ class Tasques:
     def getTasques(self):
         return self.tasques
     
+    def getTarget(self):
+        return self.target
+    
