@@ -13,3 +13,5 @@ class Tasques:
     def afegirTasca(self, filter):
         self.tasques.append(filter)
     
+    def setTarget(self, target):
+        self.target = target
