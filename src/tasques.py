@@ -10,3 +10,6 @@ class Tasques:
     def getTarget(self):
         return self.target
     
+    def afegirTasca(self, filter):
+        self.tasques.append(filter)
+    
